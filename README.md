@@ -8,3 +8,5 @@ This components are mainly used on yii framework projects, can be exported to ot
 frameworks too..
 
 hope it helps you.
+
+18:49 19/05/2012
