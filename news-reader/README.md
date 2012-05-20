@@ -7,15 +7,13 @@ be cached, so using your own logic you can return the cached feed or the hot fee
 autor: 
 Christian Salazar christiansalazarh@gmail.com
 
+SCREENSHOT
+----------
+
+<img src='https://github.com/christiansalazar/yii-components/raw/master/news-reader/screenshot.gif' >
 
 USAGE:
 -----
-
-<u style='color: red;'><b>(for SCREENSHOT, view file screenshot.gif)</b></u>
-<img src='https://github.com/christiansalazar/yii-components/raw/master/news-reader/screenshot.gif' >
-
-
-full example usage in your Yii instalation:
 
 1. Copy the component NewsReader.php into your components folder.
 
@@ -23,7 +21,7 @@ full example usage in your Yii instalation:
 
 3. Prepare an action, as an example, in your SiteController, using this code:
 `public function actionAjaxNewsReader($feed_url) {
-	NewsReader::echoNews($url);
+	NewsReader::echoNews($feed_url);
 }`
 
 4. Test your action, it must output only JSON DATA. 
