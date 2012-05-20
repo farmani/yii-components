@@ -12,6 +12,8 @@ USAGE:
 -----
 
 <u style='color: red;'><b>(for SCREENSHOT, view file screenshot.gif)</b></u>
+<img src='https://github.com/christiansalazar/yii-components/raw/master/news-reader/screenshot.gif' >
+
 
 full example usage in your Yii instalation:
 
