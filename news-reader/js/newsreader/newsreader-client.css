@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+/** NewsReader Feed.
+ * 
+ * require: 
+ * 	1-Yii Component NewsReader.php
+ * 	2-jquery
+ * 
+ * URL:
+ * https://github.com/christiansalazar/yii-components
+ * 
+ * CSS LAYOUT:
+ * 
+ * <ul class='newsreader'>
+ * 	<li><div>news title...</div><a href='news link'>read more</a></li>
+ * </ul>
+ * 
+ * @author:  Christian Salazar christiansalazarh@gmail.com
+ */
+ 
+ ul.newsreader {
+ 	list-style: none;
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ 
+ ul.newsreader li{
+ 	border-bottom: 1px dashed #eee;
+ 	margin-bottom: 3px;
+ 	border-radius: 5px;
+ 	padding: 3px;
+ 	color: black;
+ }
+ 
+ ul.newsreader li.odd {
+ 	background-color: rgb(167,205,224);
+ }
+ ul.newsreader li.even {
+ 	background-color: #eeefee;
+ }
+ 
+ ul.newsreader a {
+ 	color: black;
+ 	font-weight: bold;
+ }
